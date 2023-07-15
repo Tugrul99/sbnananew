@@ -1,0 +1,742 @@
+@import url("https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+body,
+html {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  margin-left: 23px;
+
+
+
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+section,
+span,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+}
+
+h1 {
+  font-size: 8rem;
+  font-weight: 100;
+  line-height: 0.4;
+  letter-spacing: 2px;
+  font-family: "Herr Von Muellerhoff", cursive;
+  color: antiquewhite;
+}
+
+h4 {
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 60px;
+  color: black;
+  font-family: "Poiret One", cursive;
+  font-weight: 50;
+  letter-spacing: 0.5rem;
+  font-weight: 100;
+}
+
+.f-letter {
+  font-size: 7rem;
+  font-family: "Herr Von Muellerhoff", cursive;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(./img/12717.jpg);
+  filter: brightness(0.8);
+  background-position: center;
+  background-size: cover;
+  
+  height: 100vh;
+}
+
+.header-logo {
+  letter-spacing: 5px;
+  color: antiquewhite;
+  font-size: 35px;
+  margin: 0;
+}
+
+.header-logo h2 {
+  font-size: 45px;
+  letter-spacing: 8px;
+  padding-top: 25px;
+  
+
+  font-family: "Herr Von Muellerhoff", cursive;
+  display: inline-block;
+  vertical-align: bottom;
+
+}
+
+.header-navbar {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+
+  padding: 50px 35px 0px;
+}
+
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translateX(-50%);
+  color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* transform: rotate(8deg) !important; */
+}
+
+.header-texth {
+  letter-spacing: 6px;
+  font-size: 5rem;
+}
+
+.rez {
+  margin-top: 2.5rem;
+  border-width: 5px;
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 10px !important;
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+ 
+}
+
+
+/* ABOUT  */
+
+.about {
+  background: linear-gradient(to top, #492231, rgba(155, 112, 128, 0));
+
+}
+
+.about-title {
+  padding: 40px 0;
+}
+
+.about-title h2 {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Poiret One", cursive;
+}
+
+.about-title h2::after {
+  content: "";
+  background-color: black;
+  width: 45px;
+  height: 3px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 15px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-around;
+  padding-bottom: 4rem;
+  flex-wrap: wrap;
+}
+
+.about-img {
+  width: 40%;
+}
+
+.about-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: brightness(0.8);
+  border-radius: 20px;
+}
+
+.about-text {
+  width: 40%;
+}
+
+.about-text p {
+  font-size: 15px;
+  text-align: justify;
+  color: #240606;
+}
+
+.first-p {
+  margin: 5px;
+  letter-spacing: 0.5px;
+  text-align: justify;
+
+}
+
+.first-p1 {
+  margin: 5px;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  font-family: "Poiret One", cursive;
+  color: black !important;
+  font-weight: bold;
+}
+
+.first-p i {
+  color: purple;
+  text-align: center;
+}
+
+.about-text h4::after {
+  content: "";
+  background-color: #925151;
+  width: 120px;
+  height: 2px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 15px;
+}
+
+/* ABOUT END */
+
+/* SERVİCES START  */
+.services {
+  background: linear-gradient(to top, #2e1e1e, rgba(61, 0, 23, 0));
+}
+
+.services-title {
+  padding: 35px 0;
+  text-align: center;
+}
+
+.services-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 4rem;
+  flex-wrap: wrap;
+}
+
+.services-title h2 {
+  font-size: 55px;
+  font-weight: 800;
+  font-family: "Poiret One", cursive;
+  text-align: center;
+}
+
+.services-title h2::after {
+  content: "";
+  background-color: black;
+  width: 45px;
+  height: 3px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 15px;
+}
+
+.services-text {
+  text-align: left;
+
+
+}
+
+
+.services-text h4::after {
+  content: "";
+  background-color: #000000;
+  width: 120px;
+  height: 2px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 15px;
+}
+
+.services-text ol li {
+  padding-bottom: 10px;
+  text-align: left;
+  margin-left: 0px;
+  width: 100%;
+}
+
+.service-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: brightness(0.8);
+  border-radius: 20px;
+  position: relative;
+  right: 13%;
+
+}
+
+.service-img {
+  width: 40%;
+
+
+}
+
+#menu-items {
+  font-family: "Poiret One", cursive;
+}
+
+#menu-icon {
+  font-size: 25px;
+  color: white;
+  display: none;
+  margin-right: 30px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.serv-div {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shne:hover {
+  color: #925151;
+
+}
+
+/* CAROUSEL  */
+
+.car-container {
+  padding: 5% 15%;
+  background: linear-gradient(to top, #492231, rgba(155, 112, 128, 0));
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+  border-radius: 25px;
+}
+
+.c-img:hover {
+  filter: brightness(0.9);
+  transition: ease-in-out 1s;
+}
+
+.c-item {
+  width: 100%;
+  height: 650px;
+}
+
+.car-caption h2 {
+  font-size: 55px;
+  font-weight: 500;
+  font-family: "Poiret One", cursive;
+  text-align: center;
+}
+
+.car-caption h2::after {
+  content: "";
+  background-color: black;
+  width: 60px;
+  height: 1.8px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 2rem;
+}
+
+/* CONTACT */
+.contact {
+  padding: 2% 0;
+  background: linear-gradient(to top, #c8aab5, rgba(245, 245, 220, 0));
+}
+
+.contact h2 {
+  font-size: 55px;
+  font-weight: 500;
+  font-family: "Poiret One", cursive;
+  text-align: center;
+}
+
+.contact h2::after {
+  content: "";
+  background-color: black;
+  width: 60px;
+  height: 1.8px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 2rem;
+
+}
+
+.contact-content {
+  display: flex;
+  margin-top: 8rem;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  flex-basis: 33%;
+  margin-bottom: 40px;
+
+}
+
+.contact-item i {
+  margin-bottom: 5px;
+  font-size: 45px;
+  color: #925151;
+  padding-right: 10px;
+
+}
+
+.contact-item p {
+  font-size: 18px;
+}
+
+.r-contact {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.social-m {
+  display: flex;
+  justify-content: start;
+
+  text-align: center;
+
+
+
+
+
+}
+
+.social-m i {
+  font-size: 50px;
+  color: #925151;
+  margin-right: 10px;
+
+
+}
+
+.social-m a :hover {
+  color: red;
+  transition: 0.8s;
+}
+
+.igname {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  font-family: "Poiret One", cursive;
+  font-size: larger;
+
+}
+
+.google-map {
+  display: flex;
+  align-items: center;
+
+  width: 40%;
+  height: 400px;
+  padding-left: 25px;
+  border-top-left-radius: 6px !important;
+  border-top-right-radius: 6px !important;
+
+
+}
+
+/* ANIMATION */
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(5px);
+  transform: translateX(-100%);
+}
+
+.lhidden {
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(5px);
+  transform: translateX(100%);
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.one {
+  transition-delay: 200ms;
+}
+
+.two {
+  transition-delay: 240ms;
+}
+
+.three {
+  transition-delay: 280ms;
+}
+
+.four {
+  transition-delay: 320ms;
+}
+
+.five {
+  transition-delay: 360ms;
+
+}
+/* FOOTER */
+
+footer{
+  background-color: black;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* RESPONSIVE AREA */
+
+@media only screen and (max-width: 770px) {
+  /* HEADER */
+
+  .header-menu ul {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    width: 50%;
+    overflow: hidden;
+    transition: max-height 0.9s;
+    text-align: center;
+  }
+
+  .header-menu ul li {
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header-menu #menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+@media(max-width: 500px) {
+  .header-logo {
+    font-size: 20px;
+  }
+
+  .header-logo h2 {
+    font-size: 30px;
+  }
+
+  .header-texth {
+
+
+    letter-spacing: 2px;
+    line-height: 45px;
+    width: 50%;
+  }
+
+  .header-texth h1 {
+    margin-bottom: 2rem;
+
+  }
+
+  .f-letter {
+    font-size: 85px;
+    padding-right: 2px;
+  }
+
+  #menu-icon {
+    font-size: 20px;
+  }
+}
+
+@media(max-width:1190px) {
+
+  .header-texth {
+    line-height: 45px;
+    width: 50%;
+
+  }
+
+  .f-letter {
+    font-size: 4rem;
+
+
+  }
+  .rez{
+    margin-top: 0.5rem;
+    font-size: small;
+   margin-left: 15px;
+
+  }
+}
+
+/* ABOUT , SERVICES , CONTACT */
+@media only screen and (max-width: 825px) {
+  .about {
+    padding: 7% 10%;
+  }
+
+  .about-img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .about-text {
+    width: 100%;
+  }
+
+  .services {
+    padding: 7% 10%;
+  }
+
+  .service-img {
+    width: 100%;
+    margin-bottom: 50px;
+
+
+  }
+
+  .service-img img {
+    position: static;
+
+
+
+  }
+
+  .services-text {
+    width: 100%;
+  }
+
+  .services-text ol li {
+    padding-bottom: 10px;
+    text-align: left;
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .google-map {
+    width: 100%;
+    padding: 0;
+  }
+
+  .r-contact {
+    width: 100%;
+    margin-bottom: 2rem;
+
+
+  }
+
+  .contact-content {
+    margin-top: 1.4rem;
+  }
+
+  .contact-item i {
+    font-size: 20px;
+  }
+
+  .contact-item p {
+    font-size: 15px;
+  }
+
+  .contact-item {
+    flex-direction: column;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+
+
+  }
+
+  .first-p1 {
+    width: 50%;
+    text-align: center;
+  }
+
+  .social-m {
+    display: unset;
+
+    width: 100%;
+
+  }
+
+  .social-m i {
+    margin-bottom: 5px;
+    font-size: 22px;
+
+    margin-right: 10px;
+
+  }
+
+}
